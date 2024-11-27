@@ -1,0 +1,342 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(38, 38, 83);
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo h2{
+    color: rgb(114, 81, 110);
+    justify-content: center;
+    font-family: "Lexend", sans-serif;
+}
+
+.lefthead{
+    margin-left: 20px;
+}
+
+.righthead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-links a{
+    font-family: "Lexend", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 18px;
+    margin-right:20px ;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
+.nav-links a:hover{
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-right: 30px;
+}
+
+.src-logo img{
+    width: 25px;
+    margin-right: 12px;
+}
+
+input{
+    height: 25px;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+.profile img{
+    width: 70px;
+    border-radius: 50px;
+
+}
+
+.intro{
+    margin-left: 25px;
+    margin-top: 18px;
+    font-family: "Lexend", sans-serif;
+
+}
+
+.intro h2,h3{
+    color: white;
+}
+
+.container1{
+    display: grid;
+    font-family: "Lexend", sans-serif;
+    margin-top: 60px;
+    grid-template-columns: 1fr 1fr; 
+}
+
+
+.leftblk{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 150px;
+    background-color: blueviolet;
+
+}
+
+.content{
+    display: flex;
+}
+
+.imga1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imga1 h2{
+    color:rgb(255, 255, 255);
+}
+.desc h2,p{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.imga1 img{
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+
+}
+
+.desc p{
+    background-color: beige;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.top{
+    display: flex;
+    margin-top: 5px;
+    border-radius: 20px;
+   
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.rating img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.coments{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.coments img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.ico img{
+    width: 60px;
+}
+
+/*rightblolk
+*/
+.rightblk{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.drm{
+    display: flex;
+    background-color: rgb(253, 253, 250);
+    border-radius: 20px;
+    justify-content: flex-start;
+    padding: 12px;
+    margin: 20px;
+
+}
+
+.cr{
+    background-color: gold;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 15px;
+    transition: 0.5s;
+    
+}
+
+.cr:hover{
+    background-color: black;
+    color: white;
+}
+
+.Bcont{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+.gr{
+    margin-left: 90px;
+    padding: 12px;
+    font-size: larger;
+    
+}
+
+.gr h4{
+    background-color: aquamarine;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.Bcont img{
+    width: 180px;
+    border-radius: 30px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.Use{
+    display: flex;
+    font-family: "Lexend", sans-serif;
+    justify-content: space-between;
+
+}
+
+.Use h2{
+    color: gold;
+    padding: 12px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
+.arrow img{
+    width: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.arrow img:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.crt{
+    display: flex;
+}
+
+.mov{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.Morv img{
+    width: 180px;
+    border-radius: 20px;
+    height: 265px;
+}
+
+.mov h4{
+    font-family: "Lexend", sans-serif;
+    padding: 2px;
+    color: white;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.crt1{
+    display: flex;
+}
+
+.mov1{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.Morv1 img{
+    width: 180px;
+    align-items: center;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.Morv1{
+  background-color: rgb(96, 91, 143);
+  padding: 12px 80px;
+  border-radius: 20px; 
+   
+}
+
+.mov1 h4{
+    font-family: "Lexend", sans-serif;
+    padding: 2px;
+    color: white;
+}
